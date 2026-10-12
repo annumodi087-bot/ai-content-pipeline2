@@ -1,27 +1,27 @@
-# AI Content Pipeline
+# ✍️ AI Content Pipeline
 
-Takes any topic and automatically generates:
-- 5 key research points
-- Full blog post (3 paragraphs)  
-- 3-sentence summary
-- LinkedIn, Twitter and Instagram captions
+Automatically generates blog posts, summaries, and social media captions from any topic using a 4-step AI pipeline.
 
-Built with Python, LangChain and Groq API.
-Pipeline completes in under 10 seconds.
+## 🌐 Live Demo
+👉 [https://annu-ai-content-pipeline2.streamlit.app](https://annu-ai-content-pipeline2.streamlit.app)
 
-## How to run
+## ✨ Features
+- Enter any topic → get full content in seconds
+- 4-step pipeline: Research → Blog → Summary → Captions
+- Download all content as .txt file
+- Useful for content creators, marketers, and bloggers
 
-1. Install dependencies:
-   pip install langchain langchain-groq python-dotenv
+## 🛠️ Tech Stack
+- Python
+- LangChain (chain pipelines with | operator)
+- Groq API
+- Streamlit
 
-2. Create a .env file and add your key:
-   GROQ_API_KEY=your-key-here
+## 🚀 Run Locally
+1. Clone this repo
+2. Install: `pip install -r requirements.txt`
+3. Create `.env`: `GROQ_API_KEY=your_key_here`
+4. Run: `streamlit run pipeline_app.py`
 
-3. Run the pipeline:
-   python main.py
-
-## Sample output
-See content_Artificial_Intellige.txt for a sample run.
-
-## Author
-Built by Anushka as part of an AI development learning journey.
+## 👩‍💻 Built By
+Annu — AI Developer from Indore, India
