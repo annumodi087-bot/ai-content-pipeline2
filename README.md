@@ -24,4 +24,4 @@ Automatically generates blog posts, summaries, and social media captions from an
 4. Run: `streamlit run pipeline_app.py`
 
 ## 👩‍💻 Built By
-Annu — AI Developer from Indore, India
+Anushka — AI Developer from Indore, India
